@@ -14,8 +14,8 @@
                         </div>
                     @endif
 
-                    @foreach ($users as $user)
-                        <p>This is user {{ $user->name . ' ID: ' . $user->id }}</p>
+                    @foreach ($posts as $post)
+                        <p>This is user {{ '<h1>' . $post->title . '</h1> ID: ' . $post->body }}</p>
                     @endforeach
                 </div>
             </div>
