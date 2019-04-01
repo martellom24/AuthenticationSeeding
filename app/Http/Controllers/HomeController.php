@@ -38,6 +38,6 @@ class HomeController extends Controller
         $users = User::all();
         //$user = Auth::user();
 
-        return view('profile', ['users' => $user]);
+        return view('profile', ['users' => $users]);
     }
 }
